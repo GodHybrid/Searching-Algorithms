@@ -45,7 +45,6 @@
             this.toolStripStatusLabelStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.tableLayoutPanelMain = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.trackBarSpeedUpd = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanelPauseStop = new System.Windows.Forms.TableLayoutPanel();
@@ -224,7 +223,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.trackBarSpeedUpd);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.tableLayoutPanelPauseStop);
@@ -237,19 +235,6 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Field Control";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.checkBox1.Location = new System.Drawing.Point(3, 132);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox1.Size = new System.Drawing.Size(222, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Smoothening";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // trackBarSpeedUpd
             // 
@@ -318,7 +303,6 @@
             this.trackSizeCtrl.SmallChange = 2;
             this.trackSizeCtrl.TabIndex = 1;
             this.trackSizeCtrl.Value = 1;
-            this.trackSizeCtrl.Scroll += new System.EventHandler(this.trackSizeCtrl_Scroll);
             this.trackSizeCtrl.ValueChanged += new System.EventHandler(this.trackSizeCtrl_ValueChanged);
             // 
             // label1
@@ -339,7 +323,11 @@
             this.pictureBox1.Size = new System.Drawing.Size(696, 388);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
             // Form1
             // 
@@ -398,7 +386,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelPathLength;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel7;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel8;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

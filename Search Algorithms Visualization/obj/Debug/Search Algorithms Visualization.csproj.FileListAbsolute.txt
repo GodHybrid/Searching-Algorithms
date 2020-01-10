@@ -5,6 +5,5 @@ C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\D
 C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search_Algorithms_Visualization.Form1.resources
 C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search_Algorithms_Visualization.Properties.Resources.resources
 C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search Algorithms Visualization.csproj.GenerateResource.cache
-C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search Algorithms Visualization.csproj.CoreCompileInputs.cache
 C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search Algorithms Visualization.exe
 C:\Users\GodHybrid\source\repos\SearchAlgs\Search Algorithms Visualization\obj\Debug\Search Algorithms Visualization.pdb
